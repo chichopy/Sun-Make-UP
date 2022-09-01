@@ -1,0 +1,81 @@
+
+.container-lenceria{
+    display: flex;
+    width: 95%;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    align-items: center;
+    
+}
+
+.imagenes-lenceria{
+    width: 50%;
+    max-height: 500px;
+    text-align: center;
+}
+
+.imagen-lenceria{  
+    width: 50%;
+    max-height: 500px;
+    border-radius: 2%;
+    box-shadow: 10px 10px 15px #ccc;
+}
+
+.lenceria-description{
+    font-size: 1.7vw;
+    font-weight: 400;
+    font-family: Georgia, serif;
+    text-align: justify;
+    width: 50%;
+}
+
+.lenceria-title{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.lenceria-subtitle{
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.lista-lenceria{
+    list-style-type: circle;
+}
+
+@media  screen and (max-device-width:590px) {
+    
+    .container-lenceria{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        
+    }
+    .imagenes-lenceria{
+        width: 80%;
+
+    }
+    
+    .imagen-lenceria{  
+        width: 80%;
+    }
+
+    .lenceria-description{
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .lenceria-varios{
+        margin-bottom: 0;
+    }
+    .lista-lenceria{
+        list-style-type: none;
+    }
+}

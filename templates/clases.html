@@ -1,0 +1,92 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Welcome!
+{% endblock %}
+
+{% block main %}
+
+<div class="container-clases">
+    <div class="clases">
+        <p class="title-clases">
+            Clases de automaquillaje
+        </p>
+        <p class="descripcion-clases">
+            &emsp;&emsp;Ya no tenés excusas para dejar pasar tu oportunidad de aprender a maquillarte, 
+            porque las clases incluyen todos los materiales para la práctica y los días 
+            y horarios se coordinan según tu disponibilidad.
+            Para mayor información no dude en contactarnos!
+        </p>
+        <p class="title-clases"> 
+            Detalles del curso
+        </p>
+        <ul class="detalles-del-curso">
+            <li>
+                <div class="detalles-del-curso-titulo"> Duración y horario:</div>
+                <div style="margin-left: 2%; text-align: justify;">Dos clases practicas de 2 horas aproximadas, los días y horarios se coordinan según tu disponibilidad.</div>
+               
+            </li>
+            <li>
+                <div class="detalles-del-curso-titulo">Instructora:</div>
+                <div style="margin-left: 2%; text-align: justify;">Sol Fariña</div>
+            </li>    
+            <li>
+                <div class="detalles-del-curso-titulo"> Inversion: </div>
+                <div style="margin-left: 2%; text-align: justify;">El curso tiene un costo de 350.000 Gs, con una seña de 50.000 Gs. El pago del curso incluye un kit de maquillaje de regalo y certificado.</div>
+           
+            </li>
+            <li class="detalles-del-curso-titulo"> Programa: </li>
+                <li class="detalles-del-curso-programa">Preparación y cuidado de la piel.</li>
+                <li class="detalles-del-curso-programa">Corrección de imperfecciones.</li>
+                <li class="detalles-del-curso-programa">Aplicación de contorno, iluminación y rubor.</li>
+                <li class="detalles-del-curso-programa">Maquillaje express para el día a día.</li>
+                <li class="detalles-del-curso-programa">Maquillaje ahumado para noche.</li>
+                <li class="detalles-del-curso-programa">Aplicación de lenceria.</li>
+            <li class="detalles-del-curso-titulo"> Metodos de pago: </li>
+                <li class="detalles-del-curso-programa">Efectivo.</li>
+                <li class="detalles-del-curso-programa">Giros Tigo.</li>
+                <li class="detalles-del-curso-programa">Transferencia bancaria.</li>
+                <li class="detalles-del-curso-programa"><b>Importante!</b> En caso de señar, el primer dia del curso se abona el saldo restante</li>
+        </ul>
+    </div>
+    <div class="mini-description">
+        <ul style="font-size: 20px; color: rgb(70, 64, 61); text-align: justify; border: 1px solid #D2DAE8; border-radius: 5px; padding: 20px;">
+            <li class="row" style="display: flex;">
+                <div class="col-xxl-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                    </svg>
+                </div>
+                <div class="col">
+                    <p style="text-align: justify;">
+                        Dos clases practicas de 2 horas aproximadas.
+                    </p>
+                </div>
+            </li>
+            <li class="row">
+                <div class="col-xxl-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-calendar-event" viewBox="0 0 16 16">
+                        <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                    </svg>
+                </div>
+                <div class="col">
+                    <div style="text-align: justify;">Días y horarios se coordinan según tu disponibilidad.</div>
+                </div>
+            </li>
+            <li class="row">
+                <div class="col-xxl-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="50" fill="currentColor" class="bi bi-mortarboard" viewBox="0 0 16 16">
+                        <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z"/>
+                        <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z"/>
+                    </svg>
+                </div>
+                <div class="col">
+                    <div style="text-align: justify; margin-top: 6px;">Incluye certificado y un kit de maquillaje de regalo.</div>
+                </div>
+            </li>
+    </ul>
+    </div>
+</div>
+{% endblock %}

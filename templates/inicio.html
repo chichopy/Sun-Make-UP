@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Welcome!
+{% endblock %}
+
+{% block main %}
+
+    <div class="ContainerSun">
+        <div >
+            <img src="/static/sol_inicio.png" class="Propietaria" alt="Propietaria">
+        </div>
+
+        <div class="descripcion">
+            <p class="descripcion1">Un poco de mi:</p>
+            <p>&emsp;&emsp;Empecé a estudiar maquillaje por mamá, y por el camino terminé encantadísima con este mundo. 
+                Descubrí que en el arte del maquillaje hay sutilezas y detalles que antes me pasaban desapercibidos. 
+                Hay vida en los colores. Hay psicología. Impacto. Comunicación. 
+                A nivel personal, hubo una reconciliación con la artista que siempre me habitó. 
+                Aunque sé que la utopía de la perfección en cualquier arte es inalcanzable, disfruto mucho del camino que voy creando.
+            </p>
+        </div>
+
+    </div>
+    <p class="trabajos">Algunos trabajos realizados</p>
+    <div class="clear"></div>
+    <div class="photo-grid">
+        <div class="card image-wrapper" style="background-image: url(/static/clientes/carousel_one.png) ;"></div>
+        <div class="card image-wrapper" style="background-image: url(/static/clientes/carousel_two.png) ;"></div>
+        <div class="card image-wrapper" style="background-image: url(/static/clientes/carousel_three.png) ;"></div>
+        <div class="card image-wrapper" style="background-image: url(/static/clientes/carousel_four.png) ;"></div>
+        <div class="card image-wrapper" style="background-image: url(/static/clientes/carousel_five.png) ;"></div>
+        <div class="card image-wrapper" style="background-image: url(/static/clientes/carousel_six.png) ;"></div>
+        <div class="card image-wrapper" style="background-image: url(/static/clientes/carousel_seven.png) ;"></div>
+        <div class="card image-wrapper" style="background-image: url(/static/clientes/carousel_eight.png) ;"></div>
+        <div class="card image-wrapper" style="background-image: url(/static/clientes/carousel_nine.png) ;"></div>
+        <div class="card image-wrapper cell_phone_only" style="background-image: url(/static/clientes/carousel_ten.png) ;"></div>
+    </div>
+
+
+
+{% endblock %}

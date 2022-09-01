@@ -1,0 +1,58 @@
+.container-clases{
+    display: flex;
+    width: 95%;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.clases{
+    color: rgb(70, 64, 61); 
+    font-family: Georgia, serif;
+    text-align: justify;  
+    flex-basis: 50%;
+    text-align: justify; 
+    padding-right: 8%;
+}
+
+.title-clases{
+    font-size: 30px;
+}
+
+.descripcion-clases{
+    font-size: 23px; 
+}
+
+.detalles-del-curso{
+    font-size: 20px; 
+    color: rgb(70, 64, 61); 
+    text-align: left;
+    margin-left: 2%;
+}
+
+.detalles-del-curso-titulo{
+    font-weight: bold;
+}
+
+.detalles-del-curso-programa{
+    list-style-type: circle;
+    margin-left: 6%; 
+    text-align: justify;
+    font-size: 20px;
+
+}
+
+.mini-description{
+    margin-right: 14px;
+}
+
+@media screen and (max-width: 1100px) {
+    .container-clases{
+        flex-direction: column;
+    }
+
+    .title-clases{
+        margin-right: -8%;
+    }
+}

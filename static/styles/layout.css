@@ -1,0 +1,172 @@
+/*Cosas del codigo*/
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.py-5 {
+  padding-top: 1rem!important;
+  padding-bottom: 1rem!important;
+}
+
+.navbar{
+  background-color:rgb(237,219,219);
+  color: rgb(70, 64, 61);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 440;
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+
+nav-list{
+  list-style-type: none;
+}
+
+.nav-list .list-item{
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.navbar a{
+  color: rgb(70, 64, 61);
+  text-decoration: none;
+}
+
+.navbar a:hover{
+  color: #b4aca8;
+}
+
+
+.Sol_Logo{
+  cursor: pointer;
+  min-width: 100px;
+  max-width: 120px;
+  min-height: 100px;
+  max-height: 120px;
+}
+
+.menu{
+  display: none;
+}
+
+.menu-line{
+  width: 20px;
+  height: 3px;
+  background-color: rgb(82, 77, 74);
+  margin-bottom: 4px;
+}
+
+/*foot*/
+.foot{
+  background-color:rgb(237,219,219);
+  color: rgb(70, 64, 61);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.foot-list{
+  list-style: none;
+  padding-left: 0;
+}
+
+.foot-titles{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+
+
+}
+
+
+.foot-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+}
+
+.separacion{
+  margin-bottom: 5px;
+}
+
+.redes{
+  width:15px;
+  height:15px;
+  fill:currentColor;
+}
+
+
+@media  screen and (max-width:590px) {
+  .navbar{
+    flex-direction: column;
+    position: relative;
+  }
+  .navbar .container-icon{
+    width: 100%;
+  }
+  
+  .menu{
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
+
+  .nav-list .list-item{
+    display: block;
+    border-top: 1px solid;
+    color: #b4aca8;
+    padding: 5px;
+  }
+
+  .nav-list .item-bottom{
+    border-bottom: 1px solid;
+    color: #b4aca8;
+  }
+
+  .nav-list{
+    padding-top: 3px;
+    padding-left: 0rem;
+    width: 100%;
+    text-align: center;
+    display: none;
+  }
+
+  .Sol_Logo{
+    cursor: pointer;
+    max-width: 50px;
+    max-height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .active{
+    display: block;
+  }
+
+}
+
+@media  screen and (max-width:400px) {
+  .redes{
+    width:12px;
+    height:12px;
+    fill:currentColor;
+  }
+
+}
+
+@media  screen and (max-width:370px) {
+  .btn-group, .btn-group-vertical {
+    flex-direction: column;
+    border-radius: 0%;
+  }
+  .btn {
+    border-radius: 0;
+}
+
+}
